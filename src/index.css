@@ -26,7 +26,8 @@
 * + h5,
 * + h6,
 p,
-h3 {
+h3,
+h1 {
   margin: 0;
 }
 
@@ -161,6 +162,41 @@ p {
   border-radius: 50px;
 }
 /* Works ends */
+
+/* Products */
+
+.pro-cards img {
+  max-width: 140%;
+}
+
+.pro-cards .uk-card-media-top {
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.pro-cards .uk-card {
+  border-radius: 8px;
+  min-width: 220px;
+}
+
+.pro-con h1 {
+  font-weight: 500 !important;
+}
+
+.pro-con h1::after {
+  content: "";
+  height: 2px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.171);
+  display: block;
+  max-width: 300px;
+  margin-top: 0.2rem;
+}
+
+/* Products end */
 
 /* Footer */
 .footer h3 {

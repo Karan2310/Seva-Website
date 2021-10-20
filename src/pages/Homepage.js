@@ -6,6 +6,7 @@ import Welcome from '../components/Welcome'
 import Works from '../components/Works'
 import Footer from '../components/Footer'
 import BackToTop from '../components/BackToTop'
+import ServicesCard from '../components/ServicesCard'
 
 const Homepage = () => {
     return (
@@ -14,6 +15,7 @@ const Homepage = () => {
             <Carousel />
             <Welcome />
             <Works />
+            <ServicesCard />
             <Footer />
             <BackToTop />
         </>

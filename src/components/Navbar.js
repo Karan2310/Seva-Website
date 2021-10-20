@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <>
             <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-                <nav className="uk-navbar-container " uk-navbar>
+                <nav className="uk-navbar-container shadow-sm" uk-navbar>
                     <div className="uk-navbar-right">
 
                         {/* Mobile Nav */}
