@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* + .uk-h1,
+* + .uk-h2,
+* + .uk-h3,
+* + .uk-h4,
+* + .uk-h5,
+* + .uk-h6,
+* + .uk-heading-2xlarge,
+* + .uk-heading-large,
+* + .uk-heading-medium,
+* + .uk-heading-small,
+* + .uk-heading-xlarge,
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6,
+p,
+h3,
+h1 {
+  margin: 0;
+}
+
+address,
+dl,
+fieldset,
+figure,
+ol,
+p,
+pre,
+ul {
+  margin: 0;
+}
+
+.uk-button-default {
+  border: none;
+  padding: 0;
+}
+
+/* Navbar */
+nav ul li a {
+  font-weight: 500;
+  font-size: 1.1rem !important;
+  color: white;
+  /* margin-top: -13px; */
+}
+
+.uk-navbar-nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uk-navbar-right {
+  background-color: #fff;
+}
+
+.con-nav {
+  background-color: rgb(158, 158, 255);
+  padding: 8px;
+}
+
+.con-nav p {
+  color: white !important;
+}
+
+.uk-offcanvas-bar {
+  background-color: #cbd0ff;
+  border-right: 6px solid #2236ec57;
+}
+
+.uk-offcanvas-overlay::before {
+  background: rgba(0, 0, 0, 0.349);
+}
+
+.nav-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+.nav-body ul li {
+  list-style: none;
+  padding: 0.8rem 0;
+}
+
+.nav-body ul {
+  padding: 0;
+}
+
+.nav-body ul li a {
+  text-decoration: none;
+  color: #333e5bd2;
+  font-size: 1.5rem !important;
+  transition: 0.2s ease;
+}
+
+.nav-body ul li a:hover {
+  color: #010042;
+}
+
+/* Navbar ends */
+
+/* Welcome */
+.welcome.container-fluid {
+  background-color: #eda0fc2a;
+}
+
+.welcome.container-fluid h1,
+h2,
+p {
+  color: #333e5b !important;
+}
+
+.welcome.container-fluid p {
+  font-size: 1.1rem;
+  line-height: 30px;
+}
+
+.welcome.container-fluid h2 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  font-style: italic;
+}
+/* Welcome ends*/
+
+/* Works */
+.works.container-fluid {
+  background-color: #0888ff21;
+}
+
+.works.container-fluid ul li {
+  margin: 1.5rem 0;
+}
+
+.works.container-fluid ul li h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.works.container-fluid h1::after {
+  content: "";
+  display: block;
+  background-color: #010030;
+  height: 2px;
+  width: 60vw;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 50px;
+}
+/* Works ends */
+
+/* Products */
+
+.pro-cards img {
+  max-width: 140%;
+}
+
+.pro-cards .uk-card-media-top {
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.pro-cards .uk-card {
+  border-radius: 8px;
+  min-width: 220px;
+}
+
+.pro-con h1 {
+  font-weight: 500 !important;
+}
+
+.pro-con h1::after {
+  content: "";
+  height: 2px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.171);
+  display: block;
+  max-width: 300px;
+  margin-top: 0.2rem;
+}
+
+/* Products end */
+
+/* Footer */
+.footer h3 {
+  font-weight: 500;
+  color: #fff;
+  margin-top: 1.2rem;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem !important;
+}
+
+.footer h3::after {
+  content: "";
+  height: 2px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+}
+
+.footer p {
+  color: #fff !important;
+}
+
+.footer a {
+  margin: 0.2rem 0;
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+  transition: 0.2s ease all;
+  font-size: 1.2rem;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.footer .col-md-4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer h4 {
+  color: #fff;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.cc {
+  border-top: 2px solid rgb(231, 231, 231);
+}
+/* Footer ends */
+
+/* BTT */
+.BTT {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.185);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+/* BTT end*/
